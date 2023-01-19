@@ -1,0 +1,30 @@
+.box-container {
+display: flex;
+justify-content: center;
+margin-top: 100px;
+}
+
+
+
+.form {
+    flex-direction: column;
+    width: 300px;
+    border:1px solid grey;
+    padding: 50px;
+}
+
+.logo {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+
+input{
+margin-top: 15px;
+border-radius: 10%;
+border:1px solid grey;
+}
+
+.button-box {
+    padding-top: 10px;
+}

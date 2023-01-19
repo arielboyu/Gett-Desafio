@@ -1,0 +1,66 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+}
+
+
+.logo {
+  width: 100px;
+  margin-top: 20px;
+}
+
+.completed-text {
+  text-decoration: line-through;
+  color: green;
+}
+.completed-state {
+  color: green;
+}
+.incompleted-state {
+  color: red;
+}
+
+.incompleted-text {
+  color: grey;
+}
+
+.edit-area-on {
+  display: block;
+}
+
+.edit-area-off {
+  display: none;
+}
+
+
+.add-area-on {
+  display: block;
+}
+
+.add-area-off {
+  display: none;
+}
+
+
+.table-on {
+  display: block;
+}
+
+.table-off {
+  display: none;
+}
+
+.button-box {
+display: flex;
+justify-content: space-around;
+margin-bottom: 20px;
+}
+
+
+button {
+  background-color: transparent;
+  border-radius: 15%;
+  color:orange;
+  border:1px solid grey;
+}
+
