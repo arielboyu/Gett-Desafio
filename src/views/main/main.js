@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { getTasks, editTask, addNewTask } from "../../redux/actions/index"
+import { getTasks, editTask, addNewTask } from "../../redux/actions/index";
 import { useSelector } from "react-redux";
 import store from "../../redux/store/index";
 import "./main.css";
@@ -82,7 +82,7 @@ const Main = ({ setIsAuth }) => {
       ></img>
       <div className="button-box">
         <button onClick={signOut}>Salir</button>
-        <button onClick={() => addTasks()}>agregar</button>
+        {showEdit ? "" : <button onClick={() => addTasks()}>agregar</button>}
       </div>
 
       <div className="main-container">
