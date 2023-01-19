@@ -10,6 +10,9 @@ Para correr el proyecto nos posicionamos en la raiz y corremos el comando npm in
 Es una App todo que carga una lista de prueba donde podremos marcar como completa, editar agregar y borrar tareas.
 
 
+
+Podras ver y navegar en el proyecto en el siguiente link : https://gett.netlify.app/
+
 <p align='center'>
     <img src='https://i.ibb.co/0fz8Hs4/sqq.png' </img>
 </p>
